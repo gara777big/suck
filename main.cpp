@@ -66,7 +66,10 @@ using namespace std;
 #else
 #define debug(...) 42
 #endif
-
+void function()
+{
+    long long  a = 4;
+}
 template <typename T>
 T inverse(T a, T m) {
     T u = 0, v = 1;
