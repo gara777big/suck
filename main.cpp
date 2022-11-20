@@ -70,6 +70,10 @@ void function()
 {
     long long  a = 4;
 }
+void function_lef()
+{
+    std::cout << "geteer";
+}
 template <typename T>
 T inverse(T a, T m) {
     T u = 0, v = 1;
