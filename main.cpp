@@ -73,6 +73,7 @@ T inverse(T a, T m) {
     std::cout << "hell" << std::endl;
     while (a != 0) {
         T t = m / a;
+        std::cout <<"help" << std::endl;
         m -= t * a; swap(a, m);
         u -= t * v; swap(u, v);
     }
